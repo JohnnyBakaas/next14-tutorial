@@ -1,0 +1,22 @@
+:root {
+  --bg: #151c2c;
+  --bg-soft: #182237;
+  --text: white;
+  --text-soft: #b7bac1;
+  --highlight: #2e374a;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+a {
+  all: unset;
+}
